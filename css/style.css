@@ -3,7 +3,7 @@
     background-color: #778899;
 }
 
-img{
+.avatar{
     width: 200px;
 }
 
@@ -16,7 +16,25 @@ img{
     color: white;
 }
 
+.green-text{
+    color: #66CDAA;
+    font-weight: bold;
+}
+
 .large{
     width: 300px;
     border-radius: 8px;
+}
+
+.form-zone{
+    height: 300px;
+}
+
+.light-gray{
+    background-color: #2d4e6b;
+}
+
+.gray{
+    height: 80px;
+    background-color: #778899;
 }
