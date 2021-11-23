@@ -1,0 +1,17 @@
+.navbar{
+    height: 80px;
+    background-color: #778899;
+}
+
+img{
+    width: 200px;
+}
+
+.green{
+    /* height: 400px; */
+    background-color: #66CDAA;
+}
+
+.white-text{
+    color: white;
+}
