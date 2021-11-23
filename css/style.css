@@ -15,3 +15,8 @@ img{
 .white-text{
     color: white;
 }
+
+.large{
+    width: 300px;
+    border-radius: 8px;
+}
