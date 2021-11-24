@@ -15,7 +15,7 @@
     height: 300px;
 }
 
-/* SETTING ICON */
+/* SETTING ICON FONTAWESOME*/
 .star_white .fas, .star .far{
     color: white;
 }
@@ -68,7 +68,7 @@
     background-color: #35383b; 
 }
 
-/* CLASS BUTTON */
+/* CLASS BUTTON E INPUT */
 .button_download, .button_submit{
     width: 150px; 
     background-color: #66CDAA;
