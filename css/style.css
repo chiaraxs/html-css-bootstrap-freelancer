@@ -7,12 +7,25 @@
     width: 200px;
 }
 
+.star-line-white .fas, .star-line-white .far{
+    color: white;
+}
+
+.star-line-black .fas, .star-line-black .far{
+    color: black;
+}
+
+
 .green{
     background-color: #66CDAA;
 }
 
 .white-text{
     color: white;
+}
+
+.black-text{
+    color: black;
 }
 
 .green-text{
