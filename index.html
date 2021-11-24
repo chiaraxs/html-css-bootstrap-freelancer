@@ -52,12 +52,14 @@
                     <h1 class="white-text py-1 text-uppercase">start bootstrap</h1>
                     
                     <!-- divisore con stellina  -->
-                    <div class="star-line-white">  
+                    <div class="star-line white justify-content-center">  
                         
-                        <i class="far fa-window-minimize"></i><i class="far fa-window-minimize"></i><i class="far fa-window-minimize"></i><i class="far fa-window-minimize"></i><i class="far fa-window-minimize"></i>
-                        <i class="fas fa-star my-1 mx-2"></i>
-                        <i class="far fa-window-minimize"></i><i class="far fa-window-minimize"></i><i class="far fa-window-minimize"></i><i class="far fa-window-minimize"></i><i class="far fa-window-minimize"></i>
-                        
+                        <div class="border_bottom"></div>
+                        <div class="star">
+                            <i class="fas fa-star my-1 mx-2"></i>
+                        </div>
+                        <div class="border_bottom"></div>
+                                                
                     </div>
 
                     <p class="white-text text-uppercase mt-2">graphic artist - web designer - illustrator</p>
@@ -175,14 +177,16 @@
                 <div class="form-zone">
 
                     <form>
-                        <textarea placeholder="Name"></textarea>
-                        <textarea placeholder="Name"></textarea>
-                        <textarea placeholder="Name"></textarea>
-                        <textarea placeholder="Name"></textarea>
+                        <input type="text" name="Nome" placeholder="Nome">
+                        <input type="text" name="Email Address" placeholder="Email Address">
+                        <input type="text" name="Phone number" placeholder="Phone number">
+                        <textarea id="" name="" placeholder="Message" rows="2" cols="40"></textarea>
+            
+                        <input type="submit" value="Send">
 
-                      </form>
+                    </form>
 
-                    <input type="button" onclick="alert('Hello World!')" value="Click Me!">
+                    
 
                 </div>
 

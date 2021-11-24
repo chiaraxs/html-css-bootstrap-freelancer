@@ -54,3 +54,8 @@
     height: 80px;
     background-color: #35383b; 
 }
+
+.border_bottom{
+    border-bottom: 1px solid white;
+    width: 100px;
+}
