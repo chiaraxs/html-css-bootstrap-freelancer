@@ -10,10 +10,6 @@
     width: 100%;
     border-radius: 8px;
 }
- 
-.form-zone{
-    height: 300px;
-}
 
 /* SETTING ICON FONTAWESOME*/
 .star_white .fas, .star .far{
@@ -64,7 +60,6 @@
 }
 
 .gray{
-    height: 80px;
     background-color: #35383b; 
 }
 
