@@ -20,6 +20,7 @@
 </head>
 
 <body>
+    
     <!-- NAVBAR -->
     <div class="container-fluid nav_black">
         <div class="container">
@@ -188,27 +189,33 @@
                                             
                 </div>
 
-            </div>    
-            
-            <div class="row justify-content-center">
-                
-                <div class="form-zone">
+                <!-- FORM ZONE -->
+                <div class="d-flex flex-column mb-3">
+                    <div class="pb-3 px-3 mx-5 mt-3">
+                        <div class="row pb-3 px-3 mx-5 mt-3">
+                            <input type="text" name="Nome" placeholder="Name">
+                        </div>
+                        <div class="row pb-3 px-3 mx-5">
+                            <input type="text" name="Email Address" placeholder="Email Address">
+                        </div>
+        
+                        <div class="row pb-3 px-3 mx-5">
+                            <input type="text" name="Phone number" placeholder="Phone number">
+                        </div>
+        
+                        <div class="row pb-3 px-3 mx-5">
+                            <textarea placeholder="Message" rows="5" cols="50"></textarea>
+                        </div>
+                    </div>
 
-                    <form>
-                        <input type="text" name="Nome" placeholder="Nome">
-                        <input type="text" name="Email Address" placeholder="Email Address">
-                        <input type="text" name="Phone number" placeholder="Phone number">
-                        <textarea id="" name="" placeholder="Message" rows="2" cols="40"></textarea>
-            
-                        <input type="submit" value="Send">
-
-                    </form>
-
+                    <div class="pb-3 px-3 mx-5 text-left">
+                        <input class="button_submit px-2 py-1" type="button" value="Send">
+                    </div>
                     
-
                 </div>
 
             </div>
+
         </div>
     </div>
 
@@ -218,8 +225,7 @@
 
             <div class="row">
                 <div class="col-sm-4 col-lg-4 text-center py-4 px-5">
-                    <p class="white-text">LOCATION<br>2215 Jhon Daniel Drive Clark, MO<br>54243</p>
-                    
+                    <p class="white-text">LOCATION<br>2215 Jhon Daniel Drive Clark, MO<br>54243</p>   
                 </div>
 
                 <div class="col-sm-4 col-lg-4 text-center ">

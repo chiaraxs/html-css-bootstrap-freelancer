@@ -32,12 +32,12 @@
 
 /* SETTING BORDER */
 .border_bottom_white{
-    border-bottom: 1px solid white;
+    border-bottom: 3px solid white;
     width: 100px;
 }
 
 .border_bottom_black{
-    border-bottom: 1px solid black;
+    border-bottom: 3px solid black;
     width: 100px;
 }
 
@@ -69,11 +69,23 @@
 }
 
 /* CLASS BUTTON */
-.button_download{
+.button_download, .button_submit{
     width: 150px; 
     background-color: #66CDAA;
     color: white;
     border: 1px solid white;
     border-radius: 5px;
+}
+
+.button_submit{
+    width: 50px;
+    border: none;
+}
+
+input[type="text"], textarea{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid gray;
 }
 
