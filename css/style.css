@@ -68,3 +68,12 @@
     background-color: #35383b; 
 }
 
+/* CLASS BUTTON */
+.button_download{
+    width: 150px; 
+    background-color: #66CDAA;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
