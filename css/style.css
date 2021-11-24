@@ -15,6 +15,11 @@
     color: black;
 }
 
+.fab{
+    padding: 5px;
+    border-radius: 50px;
+    border: 1px solid white;
+}
 
 .green{
     background-color: #66CDAA;
